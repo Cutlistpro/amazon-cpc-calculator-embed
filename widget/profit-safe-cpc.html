@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon Profit-Safe CPC calculator — CEILR</title>
+<meta name="robots" content="noindex,follow">
+<meta name="description" content="Work out the highest Amazon CPC that still leaves your protected contribution per order, from your own unit economics.">
+<link rel="canonical" href="https://ceilr.com/amazon-ppc-bid-calculator">
+<link rel="stylesheet" href="widget.css">
+</head>
+<body>
+<div class="w">
+  <div class="w-head">
+    <h1>Amazon Profit-Safe CPC</h1>
+    <span>Your numbers stay in your browser</span>
+  </div>
+  <div class="w-grid">
+    <div class="w-field"><label for="w-price">Selling price</label><input id="w-price" type="number" inputmode="decimal" min="0.01" step="0.01" value="34.99"></div>
+    <div class="w-field"><label for="w-landed">Landed cost / unit</label><input id="w-landed" type="number" inputmode="decimal" min="0" step="0.01" value="12.50"></div>
+    <div class="w-field"><label for="w-fees">Amazon &amp; fulfilment fees</label><input id="w-fees" type="number" inputmode="decimal" min="0" step="0.01" value="9.00"></div>
+    <div class="w-field"><label for="w-other">Other variable cost</label><input id="w-other" type="number" inputmode="decimal" min="0" step="0.01" value="1.25"></div>
+    <div class="w-field"><label for="w-protect">Protected profit / order</label><input id="w-protect" type="number" inputmode="decimal" min="0" step="0.01" value="4.00"></div>
+    <div class="w-field"><label for="w-cvr">Conversion rate (%)</label><input id="w-cvr" type="number" inputmode="decimal" min="0" max="100" step="0.1" value="12"></div>
+  </div>
+  <dl class="w-out">
+    <div class="w-row"><dt>Pre-ad contribution per order</dt><dd id="w-contribution">—</dd></div>
+    <div class="w-row"><dt>Break-even CPC</dt><dd id="w-breakeven">—</dd></div>
+    <div class="w-row"><dt>Target ACoS</dt><dd id="w-acos">—</dd></div>
+    <div class="w-row is-primary"><dt>Profit-Safe CPC</dt><dd id="w-cpc">—</dd></div>
+  </dl>
+  <p class="w-note">Profit-Safe CPC is the most you can pay per click and still keep your stated protected profit on each order. It is arithmetic on the figures you entered — not a bid recommendation, a forecast, or a claim about your account.</p>
+  <div class="w-foot">
+    <a href="https://ceilr.com/amazon-ppc-bid-calculator" target="_blank" rel="noopener">Profit-Safe CPC calculator by CEILR</a>
+    <small>Read-only to Amazon · no data leaves this page</small>
+  </div>
+</div>
+<script src="widget.js"></script>
+</body>
+</html>
