@@ -52,6 +52,18 @@ With the default inputs (US$34.99 price, US$12.50 landed, US$9.00 fees, US$1.25 
 
 It is arithmetic on the figures entered. It isn't a bid recommendation or a forecast, and it doesn't connect to any Amazon account.
 
+## Where to get the inputs
+
+The widget is only as good as the fee figure you type into it. These pages list the official rates, dated and with the arithmetic shown:
+
+- Amazon.com referral fees by category, including the US$10, US$15 and US$20 price cliffs: [ceilr.com/amazon-referral-fees](https://ceilr.com/amazon-referral-fees)
+- Amazon.com.au referral, FBA, storage and plan fees in AUD: [ceilr.com/amazon-australia-seller-fees](https://ceilr.com/amazon-australia-seller-fees)
+- Amazon.com.au FBA fees by size tier, with dimensional weight worked out: [ceilr.com/amazon-fba-fees-australia](https://ceilr.com/amazon-fba-fees-australia)
+- Break-even ACoS for every Amazon.com.au referral category on one product: [ceilr.com/amazon-break-even-acos-by-category](https://ceilr.com/amazon-break-even-acos-by-category)
+- One product taken from fees to a bid table: [ceilr.com/amazon-ppc-bid-worked-example](https://ceilr.com/amazon-ppc-bid-worked-example)
+
+For the conversion rate, use your own Sponsored Products search term report (orders ÷ clicks per term) rather than a category average.
+
 ## Files
 
 - `widget/profit-safe-cpc.html`: markup and default values
